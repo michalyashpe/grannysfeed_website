@@ -9,8 +9,11 @@
 
 }
 
+.pink {
+    color: #ff2a6a;
+}
 .step-one {
-    /*background-color: red;*/
+    /*background-color: #ff2a6a;*/
 }
 
 .step-two {
