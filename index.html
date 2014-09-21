@@ -19,8 +19,8 @@
 
   <!-- Custom Theme CSS -->
   <link href="css/grayscale.css" rel="stylesheet">
-  <link href="css/general.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link href="css/layout.css" rel="stylesheet">
   
   
   <link rel="icon" type="image/png" href="img/granny-favicon.png">
@@ -30,6 +30,8 @@
   <meta property="og:url" content="http://grannysfeed.com/">
   <meta property="og:image" content="http://grannysfeed.com/img/supa-granny.jpg">
   <meta property="og:description" content="Granny's Feed is here to connect your desperately technophobic granny to the internet, for free. Share family photos and make video calls with her, she doesn't need to know anything about computers.">
+
+
 
 </head>
 
@@ -96,9 +98,11 @@
       <div class="container">
         <div class="col-lg-8 col-lg-offset-2">
           <h2>About</h2>
+<!--             <i>Let us imagine…</i>Your technophobic granny is sitting on her sofa, watching TV, meanwhile her mini laptop shows a slideshow of new and always updating family pics. She can also choose to video-call you - her favourite granddaughter by only pressing F1 on the laptop keyboard. You can surprise her and call her too. The conversation starts without her having to press anything. You can actually see each other, so much better than the outdated voice-only telephone way…
+ -->
+          <!-- <h3>Take your beloved granny online today!</h3> -->
           <p>
-            <i>Let us imagine…</i>Your technophobic granny is sitting on her sofa, watching TV, meanwhile her mini laptop shows a slideshow of new and always updating family pics. She can also choose to video-call you - her favourite granddaughter by only pressing F1 on the laptop keyboard. You can surprise her and call her too. The conversation starts without her having to press anything. You can actually see each other, so much better than the outdated voice-only telephone way…
-
+            Granny's Feed is here to connect your desperately technophobic granny to the internet, using any second hand basic computer. Share family photos and make video calls with her, she doesn't need to know anything about computers.
 
      
           </p>
@@ -109,30 +113,6 @@
   </section>
 
 
-  <section id="diy" class="content-section text-center">
-    <div class="">
-      <div class="container">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>
-            Do It Yourself Guide
-          </h2>
-          <!-- <h3>Take your beloved granny online today!</h3> -->
-<!--           <p>
-            Granny's Feed is here to connect your desperately technophobic granny to the internet, using any second hand basic computer. Share family photos and make video calls with her, she doesn't need to know anything about computers.
-          </p> -->
-          <p>
-            All of this is in your reach and it’s cheap! These simple steps will guide you there.
-          </p>
-          <p>
-            <a href="http://fancyapps.com/fancybox/#examples" class="btn btn-default btn-lg">
-              Start Here
-            </a>
-
-
-        </div>
-      </div>
-    </div>
-  </section>
 
 
 
@@ -156,6 +136,214 @@
       </div>
     </div>
   </section>
+
+
+<section id="diy" class="content-section text-center">
+    <div class="">
+      <div class="container">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>
+            Do It Yourself Guide
+          </h2>
+          <p>
+            <a  href="#step-one" class="btn btn-default btn-lg fancybox" rel="steps">
+              Start Here
+            </a>
+          </p>
+
+
+          <div class="hidden">
+            <div id="step-one" rel="steps" class="fancybox" href="#step-two">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>1) Get a laptop for your Granny</h1>
+                  <p>
+                    Any simple laptop with the standard wifi connection and built-in camera & microphone should do the job. I got my granny a 100$ second-hand Asus Eee PC mini-laptop and it’s working great.
+                  </p>
+                  <p>
+                    Optional - get a high quality webcam & microphone to provide granny an enhanced experience. Operating System - this guide is  intended for Windows XP, other OSs should work too with mild adjustments.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step1-purchased-cut.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="hidden">
+            <div id="step-two" class="fancybox" rel="steps" href="#step-three">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>2) Connect granny’s laptop to the internet</h1>
+                  <p>
+                    In case you don’t have an internet connection at your granny’s house - ask your neighbours for their wifi password. I’m sure they’ll be happy to have your granny as a guest on their line, her mild usage of the internet should surely go unnoticeable  ;-)
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step2.gif"/>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden">
+            <div id="step-three" class="fancybox" rel="steps" href="#step-four">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>3) Create a family Dropbox folder</h1>
+                  <p>
+                    <ol>
+                      <li>Download & install Dropbox client from https://www.dropbox.com/install</li>
+                      <li>Create a new account for granny & sign in</li>
+                      <li>Create a new folder and name it  “Granny’s Feed Saver Pics” </li>
+                      <li>Share this folder with all family members (including you!)</li>
+                      <li>Put there some pics to start with. From now on everytime a family member takes a photo with a smartphone they can easily share it via the dropbox mobile app in seconds sending it directly to Granny’s screensaver!</li>
+                    </ol>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step3-granny.jpg" />
+                </div>
+            </div>
+          </div>
+
+
+
+          <div class="hidden">
+            <div id="step-four" class="fancybox" rel="steps" href="#step-five">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>
+                    4) Set the screen saver 
+                  </h1>
+                  <p>
+                    <ol>
+                      <li>Open Display in Control Panel.</li>
+                      <li>Choose the Screen Saver tab and click My Pictures Slideshow in the list.</li>
+                      <li>Click Settings to specify the newly created Dropbox folder - “Granny’s Feed Pics” </li>
+                      <li>Inside the wait tab set the time to 1 minute.</li>
+                    </ol>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step4.gif">
+                </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="hidden">
+            <div id="step-five" class="fancybox" rel="steps" href="#step-six">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>
+                    5) Disable sleep mode
+                  </h1>
+                  <p>
+                    We want the screen saver  to always keep the family’s slide show on  while idle, so sleep mode is not an option.
+                    <ol>
+                      <li>Go to Start,  Control Panel and click on Power Options</li>
+                      <li>On the Power Schemes tab, select Home/Office Desk in the Power Schemes drop-down box</li>
+                      <li>In the box labeled System standby, select Never</li>
+                      <li>Click OK and save your changes.</li>
+                    </ol>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step5-2.jpg" />
+                </div>
+            </div>
+          </div>
+
+
+
+          <div class="hidden">
+            <div id="step-six" class="fancybox" rel="steps" href="#step-seven">
+              <div class="row">
+                <div class="col-md-6">
+                  
+                  <h1>6) Enable incoming calls</h1>
+                  <p>
+                    <ol>
+                      <li>Install Skype from <a href="http://www.skype.com/en/download-skype/skype-for-computer/">http://www.skype.com/en/download-skype/skype-for-computer/</a></li>
+                      <li>Create a new user account for granny</li>
+                      <li>Add ranny’s contact list all family members and friends</li>
+                      <li>Allow contacts only to make calls and send messages (full guide <a href="https://support.skype.com/en/faq/FA140/how-do-i-manage-my-privacy-settings-in-skype-for-windows-desktop">here</a>)</li>
+                      <li>Set auto answer calls with video (full guide <a href="https://support.skype.com/en/faq/FA3751/can-i-automatically-answer-all-my-calls-with-video-in-skype-for-windows-desktop?q=windows+auto+answer">here</a>)</li>
+                    </ol>            
+                  </p>
+                  <p>
+                    <div style="border:1px solid">
+                      This step would enable anyone on Granny’s contacts list to immediately initiate a call with granny and immediately see her. This could jeopardize granny’s privacy. Take this into consideration when applying this setting. 
+                      In our case Granny’s laptop is located right in front of her sofa, where she sits in front of the  TV and is really glad  to be surprised with incoming video calls from us, her family 
+                    </div>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step6.gif" />
+                </div>
+            </div>
+          </div>
+
+
+          <div class="hidden">
+            <div id="step-seven" class="fancybox" rel="steps" href="#step-eight">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>7) Let Granny easily initiate video calls to the family</h1>
+                  <p>
+                    Configure keyboard shortcut keys to call specific contacts:
+                    <ol>
+                      <li>Download AutoHotKey at <a href="http://www.autohotkey.com">http://www.autohotkey.com</a></li>
+                      <li>Create a new file called “skype_script.ahk”</li>
+                      <li>
+                        For each contact granny wants to call add a new line like this:
+                        <br/>
+                        KEY::Run “C:\Program Files\Skype\Phone\Skype.exe” “/callto:SKYPE_USER&video=true” 
+                        <br/>
+                        where KEY is the desired keyboard key in order to call a specific person (e.g F1. see list of all keys <a href="http://www.autohotkey.com/docs/commands/Send.htm">here</a>) and SKYPE_USER is this person’s skype user name.
+                      </li>  
+                      <li>Double-click the file to launch it. A new icon appears in the taskbar notification area, and the script is waiting to be triggered by keyboard clicks. Try it!</li>
+                    </ol>
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step7.gif" />
+                </div>
+            </div>
+          </div>
+
+
+          <div class="hidden">
+            <div id="step-eight" class="fancybox" rel="steps" href="#step-one">
+              <div class="row">
+                <div class="col-md-6">
+                  <h1>8) Remote Access</h1>
+                  <p>
+                    Murphy law says - If anything can go wrong it will.. I found it very helpful and extremely easy to access granny’s laptop when I’m away using Chrome Remote Desktop tool. Download and follow installation guide <a href="https://chrome.google.com/webstore/detail/chrome-remote-desktop/gbchcmhmhahfdphkhkmpfmihenigjmpp?hl=en">here</a>.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img class="step-image" src="images/step8.gif" />
+                </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <section id="contact-us" class="container content-section text-center">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
@@ -181,8 +369,8 @@
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-  <!-- Google Maps API Key - You will need to use your own API key to use the map feature -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+  <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
 
   <!-- Custom Theme JavaScript -->
   <script src="js/grayscale.js"></script>
@@ -203,6 +391,15 @@
 
   ga('create', 'UA-52624394-1', 'auto');
   ga('send', 'pageview');
+
+
+
+  $(document).ready(function() {
+    $(".fancybox").fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none'
+    });
+  });
 
   </script>
 </footer>
