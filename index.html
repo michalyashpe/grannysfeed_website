@@ -67,6 +67,12 @@
           <li class="page-scroll">
             <a href="#contact-us">Contact Us</a>
           </li>
+          <li class="multiling">
+            <a type="button" id="toEnglish" onclick="updateLanguage('en')">English</a>
+          </li>
+          <li class="multiling">
+            <a type="button" id="toEnglish" onclick="updateLanguage('heb')">עברית</a>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -80,7 +86,13 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 ">
             <h1 class="brand-heading pink" style="text-align:left;">Granny's Feed</h1>
+            
             <p class="intro-text ">Family pics feed and video calls for your technophobic granny</p>
+
+            <h1 id="app_heading"><a name=""></a></h1>
+            <p id="”app_introduction”"></p>
+
+
             <div class="page-scroll">
               <a href="#about" class="btn btn-circle">
                 <i class="fa fa-angle-double-down animated"></i>
@@ -391,8 +403,17 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/grayscale.js"></script>
 
+  <!-- multilingual -->
+  <!-- http://docs.feedhenry.com/v1/multilingual_support.html -->
+  <script type="text/javascript" src="lang/utils_lang.js"></script>
+  <script type="text/javascript" src="lang/en.js"></script>
+  <script type="text/javascript" src="lang/heb.js"></script>
+
+
   <script>
   
+  initLanguages();
+
   $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
@@ -416,6 +437,8 @@
       closeEffect : 'none'
     });
   });
+
+
 
   </script>
 </footer>
