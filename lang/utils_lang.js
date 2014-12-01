@@ -15,6 +15,8 @@
 
   function updateLanguage(l) {
    var newLanguage = lang[l]; // Look up the required language in our global
+
+   
    for (id in newLanguage) { // Iterate over key and value pairs
      if (newLanguage.hasOwnProperty(id)) {
        $("#" + id).html(newLanguage[id]);
