@@ -1,0 +1,22 @@
+html {
+	direction: rtl;
+	float: right;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-nav li{
+	float: right;
+}
+
+
+.intro {
+	text-align: right;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
