@@ -1,8 +1,33 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+
 html {
 	direction: rtl;
 	float: right;
 }
 
+body, h1, h2, h3, h4, h5, .navbar {
+  font-family: "Alef Hebrew",
+	 “Helvetica Neue”,
+	 Helvetica,
+	 Arial,
+	 sans-serif;
+}
+
+.navbar {
+	font-size: 18px;
+	float: right;
+}
+.language a {
+	float: right;
+	font-size: 13px;
+}
+
+.navbar-brand {
+	font-size: 20px;
+	font-weight: bold;
+}
 .navbar-nav {
 	float: right;
 }
@@ -13,10 +38,5 @@ html {
 
 
 .intro {
-	text-align: right;
-
-}
-
-.intro .page-scroll {
 	text-align: center;
 }
